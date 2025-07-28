@@ -2,6 +2,7 @@
 pragma solidity ^0.8.24;
 
 import { ZkSyncChainChecker } from "lib/foundry-devops/src/ZkSyncChainChecker.sol"; 
+import { DeployMerkleAirdrop } from "../../script/DeployMerkleAirdrop.s.sol";
 import {Script} from "forge-std/Script.sol";
 import {MerkleAirdrop} from "../src/MerkleAirdrop.sol";
 import {TebboToken} from "../src/TebboToken.sol";
